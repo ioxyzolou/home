@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Ifigenia's Engineering Blog</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body>
+        <!-- Responsive navbar-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="#!">Ifigenia's Engineering Blog</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#!">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#!">Contact</a></li>
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Blog</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Page content-->
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-lg-8">
+                    <!-- Post content-->
+                    <article>
+                        <!-- Post header-->
+                        <header class="mb-4">
+                            <!-- Post title-->
+                            <h1 class="fw-bolder mb-1">Building my first Prusa MINI+</h1>
+                            <!-- Post meta content-->
+                            <div class="text-muted fst-italic mb-2">Posted on September 8, 2023 by Ifigenia Oxyzolou</div>
+                            <!-- Post categories-->
+                        </header>
+                        <!-- Preview image figure-->
+                        <figure class="mb-4"><img class="img-fluid rounded" src="assets/final.jpg" alt="Prusa Mini+" /></figure>
+                        <!-- Post content-->
+                        <section class="mb-5">
+                            <p class="fs-5 mb-4">This past week in ENGR 11A, I built and calibrated a Prusa MINI+ 3D Printer with my classmate Gianna. Assembling the printer was a fairly straightforward process that I found to be very enjoyable! The instructions were a bit overly detailed which became confusing at times, but the process went smoothly overall. If I could change something, I would simplify the manual and add larger diagrams (kind of like IKEA manuals) as opposed to the small, busy images that were included. I find that style easier to follow. The overall process of putting the printer together was quite easy though. </p>
+                            <p class="fs-5 mb-4">One challenge was getting the screws all the way through to connect the main base with the part with the nozzle. Additionally, organizing all the wiring of the machine, while not that difficult, was confusing because of the overly detailed instructions. But we managed to get it all to fit nicely into the electronics box as seen below!</p>
+                            <img class="mb-4" width="400" src="assets/wiring.png" alt=“…”>
+                            <p class="fs-5 mb-4">When inserting the PLA filament, it took multiple tries to get it to load all the way through the PTFE tube up to the nozzle. The first few inches of the filament were lumpy which was blocking it from getting all the way through. However, we were finally able to get it in after cutting off that piece of the filament.</p>
+                            <h2 class="fw-bolder mb-4 mt-5">Calibration</h2>
+                            <img class="mb-4" width="400" src="assets/first_calibration.png" alt=“…”>
+                            <p class="fs-5 mb-4"> Once we had finished building our printer, calibrating it took a few adjustments in order to get the nozzle to align with the magnetic plate. Our first nozzle test resulted in a sparse square of PLA filament (as pictured below). After a few adjustments though, the nozzle hovered just above the plate and printed a nice even square with clean corners. And with that, Pruscilla was ready! </p>
+                            <img class="mb-4" width="400" src="assets/pruscilla.png" alt=“…”>
+                            <h3 class="fw-bolder mb-4 mt-5">Benchy!</h3>
+                            <p class="fs-5 mb-4">The first design we printed with Pruscilla was the classic Benchy design with the intent of refining the calibration of our printer. Our first Benchy print had a length of 59.67 mm, a height of 48.16 mm, and a width of 30.77 mm. These dimensions were very close to what the dimensions of a Benchy 3D print should be, (length: 60 mm, height: 48 mm, width: 31 mm). Thus, we knew our printer was already well-calibrated. Our goal with our second print was to play around with the infill and layer height settings to change the speed of the print. Reducing the infill from 15% to 10% greatly improved the speed of our print, allowing it to finish in less than an hour. Increasing the layer height from 0.2 mm to 0.39 mm also made the print go faster, while making the silhouette of the boat more boxy (as can be seen on the top of the Benchy on the right in the picture below).</p>
+                            <img class="mb-4" width="400" src="assets/benchies.png" alt=“…”>   
+                            <p class="fs-5 mb-4"><em>(L: 1st Benchy print, R: 2nd Benchy print)</em></p>
+                            <p class="fs-5 mb-4">I then did a print with a star infill (for fun), and reduced the layer height to 0.1 mm. This print took over 2 hours, but the final Benchy product was silky smooth and had very accurate dimensions (59.9 mm x 48.2 mm x 30.7 mm). I would say this final Benchy was our best one as it was very structurally intact and felt more like it was molded rather than 3D printed.</p>
+                            <img class="mb-4" width="400" src="assets/benchy_with_cat.png" alt=“…”>
+                            <p class="fs-5 mb-4"><em>Captain cat on our third Benchy print!</em></p>
+                            <p class="fs-5 mb-4">Ultimately, playing around with the different settings on the Benchy allowed me to better understand how printer speed influences structural integrity and vice versa. Depending on the print, it can be more worthwhile to give more attention to one element over another. Ideally though, efficient prints with good structural integrity might just be the happiest medium.</p>
+                        </section>
+                    </article>
+                    <!-- Comments section-->
+                    <section class="mb-5">
+                        <div class="card bg-light">
+                            <div class="card-body">
+                                <!-- Comment form-->
+                                <form class="mb-4"><textarea class="form-control" rows="3" placeholder="Join the discussion and leave a comment!"></textarea></form>
+                                <!-- Comment with nested comments-->
+                                <div class="d-flex mb-4">
+                                    <!-- Parent comment-->
+                                    <div class="flex-shrink-0"><img class="rounded-circle" src="https://dummyimage.com/50x50/ced4da/6c757d.jpg" alt="..." /></div>
+                                    <div class="ms-3">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+            </div>
+        </div>
+        <!-- Footer-->
+        <footer class="py-5 bg-dark">
+            <div class="container"><p class="m-0 text-center text-white">Copyright &copy; Your Website 2023</p></div>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
