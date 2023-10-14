@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Ifigenia's Engineering Blog</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body>
+        <!-- Responsive navbar-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="#!">Ifigenia's Engineering Blog</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item"><a class="nav-link" href="home.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#!">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#!">Contact</a></li>
+                        <li class="nav-item"><a class="nav-link" aria-current="page" href="index.html">Project 1</a></li>
+                        <li class="nav-item"><a class="nav-link" aria-current="page" href="project_2.html">Project 2</a></li>
+                        <li class="nav-item"><a class="nav-link" aria-current="page" href="project_3.html">Project 3</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Page content-->
+          <div class="container mt-5">
+                    <!-- Post content-->
+                    <article>
+                        <!-- Post header-->
+                        <header class="mb-4">
+                            <!-- Post title-->
+                            <h1 class="fw-bolder mb-1">Project 3: Building an Alarm Clock</h1>
+                            <!-- Post meta content-->
+                            <div class="text-muted fst-italic mb-2">Posted on October 12, 2023 by Ifigenia Oxyzolou</div>
+                            <!-- Post categories-->
+                        </header>
+                        <!-- Preview image figure-->
+                        <!-- Post content-->
+                        <section class="mb-5">
+                            <p class="fs-5 mb-4"> This week, I built an alarm clock by soldering a circuit board and designed and 3D-printed a casing for it!</p>
+                            <h2 class="fw-bolder mb-4 mt-5">Soldering</h2>
+                            <p class="fs-5 mb-4">The first necessary step in building our alarm clock was soldering each of the components to the electronic board. This process was a bit difficult to get the hang of at first. At first, the solder was messy and I had to do a lot of cleaning and redoing. Eventually though I was able to solder pretty quickly and without spreading the solder everywhere.</p>
+                            <img class="mb-4" width="400" src="assets/project 3/soldering.png" alt="Benchy Design Sketches" /></figure>
+                            <p class="fs-5 mb-4">One big challenge was correcting the alignment of some of our pieces. The time display pieces were placed very messily at first and so I had to re-do some of my work by vacuuming the solder. I found this to be a very tedious task and struggled to remove all the solder. When I had removed all the solder and tried to pull the time display piece out to realign it, I uprooted a part of the board, breaking a connection. In order to fix this issue, I had to use a piece of solder to replace and wire that connection. This was a valuable learning experience.</p>
+                            <img class="mb-4" width="400" src="assets/project 3/wire fix.png" alt="..." /></figure>
+                            <p class="fs-5 mb-4">Once we finished all the soldering for the clock, we connected it to a battery and it started working successfully!</p> 
+                            <h2 class="fw-bolder mb-4 mt-5">Designing the Casing</h2>
+                            <p class="fs-5 mb-4"> In order to design the casing for our alarm clock, we had to take precise measurements of its dimensions. Pictured below is the detailed sketch with all the dimensions for our alarm clock.</p> 
+                            <img class="mb-4" width="600" src="assets/project 3/sketch 1.png" alt=“…”>
+                            <p class="fs-5 mb-4">I took all these measurements in order to create a precise frame for the clock on Autodesk Fusion 360. For the casing design I created on Autodesk Fusion 360, I increased these measurements by approximately 1 mm in order to make them nicely hug the board's perimeter as well as the holes for the time display and the buttons. I additionally created holes for the speaker to be amplified through. When thinking about how I would create a design that could hold both the electronic board of the clock and hide the wiring and battery, I had the idea to make a two-piece casing. The top piece of the case would hold the circuit board, and this piece would seamlessly slip into a larger back piece. The initial idea for this can be seen in my very rough sketch below.</p>
+                            <img class="mb-4" width="600" src="assets/project 3/sketch 2.png" alt=“…”>
+                            <h3 class="fw-bolder mb-4 mt-5">3D Printing the Casing</h3>
+                            <p class="fs-5 mb-4">My partner, Gil, and I designed the casing for this clock in Autodesk Fusion 360. The biggest challenge I found was ensuring the dimensions for the top piece of the alarm clock aligned with the bottom piece. I rounded the edges with the fillet tool and found that this feature cut down the dimensions of my design, so I had to go back to my sketch and increase the dimensions so that when filleted, my design would match my desired dimensions for the clock.</p>
+                            <img class="mb-4" width="600" src="assets/project 3/top.png" alt=“…”>
+                            <img class="mb-4" width="600" src="assets/project 3/bottom.png" alt=“…”>   
+                            <p class="fs-5 mb-4">For this print I used relatively default slicer settings. The only change I made was adjusting the layer thickness to 0.20 mm in hopes of finishing our print within class time, leaving time for more drafts. The print time for the lid was 3 hrs 42 min, and around 6 hours for the larger back piece. Unfortunately, we were not able to complete more than one draft of our final design.</p>
+                            <img class="mb-4" width="700" src="assets/project 3/slicer.png" alt=“…”>
+                            <h2 class="fw-bolder mb-4 mt-5">Final Product</h2>
+                            <p class="fs-5 mb-4">Overall, I was pretty happy with our final product, as the two pieces of our casing fit together nicely and also fit the clock’s dimensions very well. If I had more time, I would have added some fun features to the clock casing, as well as altering the button feature, since in our final design, we had to use a pen to press the buttons. Regardless, this project was a very fulfilling experience because, despite the design challenges I encountered, I was able to create a usable, tangible product!</p>
+                            <img class="mb-4" width="400" src="assets/project 3/final 1.png" alt=“…”>
+                            <img class="mb-4" width="400" src="assets/project 3/final 2.png" alt=“…”>
+                        </section>
+                    </article>
+                    <!-- Comments section-->
+                    <section class="mb-5">
+                        <div class="card bg-light">
+                            <div class="card-body">
+                                <!-- Comment form-->
+                                <form class="mb-4"><textarea class="form-control" rows="3" placeholder="Join the discussion and leave a comment!"></textarea></form>
+                                <!-- Comment with nested comments-->
+                                <div class="d-flex mb-4">
+                                    <!-- Parent comment-->
+                                    <div class="flex-shrink-0"><img class="rounded-circle" src="https://dummyimage.com/50x50/ced4da/6c757d.jpg" alt="..." /></div>
+                                    <div class="ms-3">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+            </div>
+        </div>
+        <!-- Footer-->
+        <footer class="py-5 bg-dark">
+            <div class="container"><p class="m-0 text-center text-white">Copyright &copy; Your Website 2023</p></div>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
