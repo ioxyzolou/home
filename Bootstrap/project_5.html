@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Ifigenia's Engineering Blog</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body>
+        <!-- Responsive navbar-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="#!">Ifigenia's Engineering Blog</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item"><a class="nav-link" href="home.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#!">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#!">Contact</a></li>
+                        <li class="nav-item"><a class="nav-link" aria-current="page" href="index.html">Project 1</a></li>
+                        <li class="nav-item"><a class="nav-link" aria-current="page" href="project_2.html">Project 2</a></li>
+                        <li class="nav-item"><a class="nav-link" aria-current="page" href="project_3.html">Project 3</a></li>
+                        <li class="nav-item"><a class="nav-link" aria-current="page" href="project_4.html">Project 4</a></li>
+                        <li class="nav-item"><a class="nav-link" aria-current="page" href="project_5.html">Project 5</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Page content-->
+          <div class="container mt-5">
+                    <!-- Post content-->
+                    <article>
+                        <!-- Post header-->
+                        <header class="mb-4">
+                            <!-- Post title-->
+                            <h1 class="fw-bolder mb-1">Project 5: Laser Cutting</h1>
+                            <!-- Post meta content-->
+                            <div class="text-muted fst-italic mb-2">Posted on December 11, 2023 by Ifigenia Oxyzolou</div>
+                            <!-- Post categories-->
+                        </header>
+                        <!-- Preview image figure-->
+                        <!-- Post content-->
+                        <section class="mb-5">
+                            <p class="fs-5 mb-4">For this project, my goal was to laser cut a casing for the alarm clock I built in project 3!</p>
+                            <h2 class="fw-bolder mb-4 mt-5">The Design Process</h2>
+                            <p class="fs-5 mb-4">My idea in approaching this project was to take the CAD design that I previously created for my alarm clock, and transform that into a design that could be laser cut. I was mainly concerned with the dimensions since I had already tested out and adjusted my design in project 3 to have the best fit for my alarm clock. The idea was that the main casing for the clock would be a laser-cut jointed box. Then a cover with holes for the display would nicely slide into the open side of the box to complete the casing.</p>
+                            <p class="fs-5 mb-4">Below is the dimensioned sketch for this concept. I shaved off approximately one millimeter from the dimensions of the cover piece in order to account for tolerance.</p>
+                            <img class="mb-4" width="400" src="assets/project 5/sketch.png" alt="Benchy Design Sketches" /></figure>
+                            <p class="fs-5 mb-4">Once the concept was thought out, my first step was to design a jointed box on Fusion360. This was a quite tedious process that was made very approachable by the following youtube tutorial: https://www.youtube.com/watch?v=ZrcqauNvt0M&t=1s. First I designed this basic box and then adjusted the dimensions according to the casing I designed for my alarm clock in project 3 (pictured in the sketch).</p>
+                            <img class="mb-4" width="600" src="assets/project 5/shell.png" alt=“…”>
+                            <p class="fs-5 mb-4">I then used those same previously established dimensions to design the cover for the face of the clock. I ensured that the thickness of my design was 3 mm to match that of the MDF particle board I was going to be laser cutting with.</p>
+                            <img class="mb-4" width="600" src="assets/project 5/face.png" alt=“…”>
+                            <h3 class="fw-bolder mb-4 mt-5">The Laser Cutting Process</h3>
+                            <p class="fs-5 mb-4">Once I had completed my Fusion360 designs, I downloaded the DXF files for each of the parts of the jointed box and the top piece and imported them to LightBurn. The layout and settings are pictured below.</p>
+                            <img class="mb-4" width="600" src="assets/project 5/laser-print-settings.png" alt=“…”>
+                            <p class="fs-5 mb-4">Seeing my design be cut in real time was very satisfying, and provided much more instant gratification than 3D printing. The final result was successful and the pieces all fit together well. However, the parts needed hot gluing in order to stay together because the joints did not have enough friction between each other to stay put. Additionally, adding 1 mm for tolerance might have been a bit too much, and if I did this again I would have maybe changed it to around 0.5 mm.</p>
+                            <p class="fs-5 mb-4">I was very pleased overall with my first experience laser cutting and I would like to experiment more with this versatile tool in the future.</p>
+                            <img class="mb-4" width="600" src="assets/project 5/final.png" alt=“…”>
+                        </section>
+                    </article>
+                    <!-- Comments section-->
+                    <section class="mb-5">
+                        <div class="card bg-light">
+                            <div class="card-body">
+                                <!-- Comment form-->
+                                <form class="mb-4"><textarea class="form-control" rows="3" placeholder="Join the discussion and leave a comment!"></textarea></form>
+                                <!-- Comment with nested comments-->
+                                <div class="d-flex mb-4">
+                                    <!-- Parent comment-->
+                                    <div class="flex-shrink-0"><img class="rounded-circle" src="https://dummyimage.com/50x50/ced4da/6c757d.jpg" alt="..." /></div>
+                                    <div class="ms-3">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+            </div>
+        </div>
+        <!-- Footer-->
+        <footer class="py-5 bg-dark">
+            <div class="container"><p class="m-0 text-center text-white">Copyright &copy;  Ifigenia's Engineering Blog 2023</p></div>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
